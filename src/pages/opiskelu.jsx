@@ -4,8 +4,11 @@ function Opiskelu() {
     return (
         <>
             <NavBar />
-            <p>opiskelu</p>
+            <div className="container opiskelu">
+                <h1>Opiskelu Joensuussa</h1>
+            </div>
         </>
+        
     )
 }
 

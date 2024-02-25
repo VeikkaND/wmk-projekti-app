@@ -18,7 +18,17 @@ body {
     padding-top: 200px;
 }
 
-.container h1 {
+.opiskelu {
+    background-image: url("./media/opiskelu_tausta.jpg");
+    background-position: 70% 40%;
+}
+
+.asuminen {
+    background-image: url("./media/asuminen_tausta.jpg");
+    background-position: 70% 40%;
+}
+
+h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -27,7 +37,7 @@ body {
     color: white;
 }
 
-.container .textbox {
+.textbox {
     background-color: white;
     width: 70%;
     margin: auto;
