@@ -15,7 +15,7 @@ body {
     background-image: url("./media/tausta.jpg");
     background-size: cover;
     background-position: 70% 40%;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .container h1 {
@@ -34,4 +34,20 @@ body {
     padding: 20px;
     border-radius: 10px;
     border: solid 1px;
+}
+
+.navbar {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar p {
+    border-right: solid 1px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.navbar p:hover {
+    cursor: pointer;
 }
