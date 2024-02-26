@@ -33,6 +33,11 @@ p {
     background-position: 70% 40%;
 }
 
+.matkustaminen {
+    background-image: url("./media/matkustaminen_tausta.jpg");
+    background-position: 70% 40%;
+}
+
 h1 {
     text-align: center;
     padding-top: 50px;
@@ -97,15 +102,24 @@ h4 {
 .navbar {
     max-width: 400px;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .navbar p {
     border-right: solid 1px;
     padding-left: 8px;
     padding-right: 10px;
+    cursor: pointer;
+    animation-name: slidein;
+    animation-duration: 1s;
 }
 
-.navbar p:hover {
-    cursor: pointer;
+@keyframes slidein {
+    from {
+        width: 0%;
+    } 
+
+    to {
+        width: 100%;
+    }
 }
