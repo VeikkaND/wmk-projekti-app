@@ -1,8 +1,12 @@
 import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 import yliopisto2 from "../media/yliopisto2.jpg"
 import yliopisto1 from "../media/yliopisto1.jpg"
 import opiskelu1 from "../media/opiskelu1.jpg"
 import opiskelu2 from "../media/opiskelu2.jpg"
+import opiskelu3 from "../media/opiskelu3.jpg"
+import opiskelu4 from "../media/opiskelu4.jpg"
+import opiskelu5 from "../media/opiskelu5.jpg"
 
 function Opiskelu() {
     return (
@@ -92,54 +96,116 @@ function Opiskelu() {
                             tarjoaa monipuolisia koulutusohjelmia, 
                             jotka valmistavat opiskelijoita työelämän 
                             haasteisiin.</p>
-                        <h4>Koulutusohjelmat</h4>
-                        <p>Karelia-ammattikorkeakoulussa on tarjolla 
-                            koulutusohjelmia useilla eri aloilla, 
-                            kuten tekniikassa, liiketaloudessa, 
-                            terveysalalla ja kulttuurialalla.</p>
-                        <p>Opiskelijat saavat mahdollisuuden kehittää 
-                            käytännön osaamistaan yhteistyössä yritysten 
-                            ja organisaatioiden kanssa.</p>
-                        <h4>Opiskelijapalvelut</h4>
-                        <p>Modernit opiskelijapalvelut tukevat 
-                            opiskelijoita koko opintojen ajan. 
-                            Kirjasto, tietokoneluokat ja opiskelijaravintolat 
-                            ovat osa kampuksen monipuolista palveluvalikoimaa.</p>
-                        <p>Karelia panostaa opiskelijoiden hyvinvointiin 
-                            tarjoamalla monipuolisia tukipalveluita.</p>
-                        <h4>Kansainvälisyys</h4>
-                        <p>Karelia-ammattikorkeakoulu kannustaa 
-                            kansainvälisyyteen ja tarjoaa mahdollisuuksia 
-                            kansainväliseen vaihtoon sekä englanninkieliseen 
-                            opetukseen.</p>
-                        <p>Kansainväliset opiskelijat ovat tärkeä osa Karelian 
-                            monikulttuurista opiskeluympäristöä.</p>
+                        <div className="row">
+                            <div className="text">
+                                <h4>Koulutusohjelmat</h4>
+                                <p>Karelia-ammattikorkeakoulussa on tarjolla 
+                                    koulutusohjelmia useilla eri aloilla, 
+                                    kuten tekniikassa, liiketaloudessa, 
+                                    terveysalalla ja kulttuurialalla.</p>
+                                <p>Opiskelijat saavat mahdollisuuden kehittää 
+                                    käytännön osaamistaan yhteistyössä yritysten 
+                                    ja organisaatioiden kanssa.</p>
+                            </div>
+                            <div className="image"></div>
+                        </div>
+                        <div className="row">
+                            <div className="image"></div>
+                            <div className="text">
+                            <h4>Opiskelijapalvelut</h4>
+                            <p>Modernit opiskelijapalvelut tukevat 
+                                opiskelijoita koko opintojen ajan. 
+                                Kirjasto, tietokoneluokat ja opiskelijaravintolat 
+                                ovat osa kampuksen monipuolista palveluvalikoimaa.</p>
+                            <p>Karelia panostaa opiskelijoiden hyvinvointiin 
+                                tarjoamalla monipuolisia tukipalveluita.</p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div className="row">
+                            <div className="text">
+                            <h4>Kansainvälisyys</h4>
+                            <p>Karelia-ammattikorkeakoulu kannustaa 
+                                kansainvälisyyteen ja tarjoaa mahdollisuuksia 
+                                kansainväliseen vaihtoon sekä englanninkieliseen 
+                                opetukseen.</p>
+                            <p>Kansainväliset opiskelijat ovat tärkeä osa Karelian 
+                                monikulttuurista opiskeluympäristöä.</p>
+                            </div>
+                            <div className="image"></div>
+                        </div>
+                        
                     <h3>Opiskelijaelämä</h3>
-                        <p>Joensuussa toimii lukuisia&nbsp;
-                            <a href="https://www.isyy.fi/vapaa-aika/ainejarjestot/joensuun-ainejarjestot.html">
+                        <div className="row">
+                            <div className="text">
+                                <p>Joensuu on tunnettu vilkkaasta opiskelijayhteisöstään ja 
+                                    monipuolisista tapahtumistaan, jotka luovat opiskelijoille 
+                                    ainutlaatuisen opiskelukokemuksen. Kaupungin rennon ilmapiirin 
+                                    ansiosta opiskelijat voivat nauttia monista eri aktiviteeteista, 
+                                    verkostoitua muiden opiskelijoiden kanssa ja rakentaa muistoja, 
+                                    jotka säilyvät elämänmittaisesti.</p>
+                                <p>Joensuussa toimii lukuisia&nbsp;
+                                <a href="https://www.isyy.fi/vapaa-aika/ainejarjestot/joensuun-ainejarjestot.html">
                                 opiskelijajärjestöjä</a>, 
-                            jotka järjestävät monipuolisia tapahtumia aina 
-                            teema-illoista urheilukilpailuihin ja 
-                            kulttuuritapahtumiin.</p>
-                        <p>Opiskelijat voivat liittyä erilaisiin järjestöihin 
-                            ja löytää samanhenkisiä ihmisiä, 
-                            jonka kanssa jakaa kiinnostuksen kohteitaan.</p>
-                        <p>Joensuun rento ilmapiiri ja avoin asenne tekevät 
-                            kaupungista ihanteellisen paikan opiskelijaelämälle. 
-                            Kaupunki tarjoaa monipuolisia mahdollisuuksia 
-                            rentoutua opintojen lomassa.</p>
-                        <p>Opiskelijat voivat nauttia opiskelijaravintoloista, 
-                            kahviloista ja baareista, jotka luovat rennon 
-                            ympäristön ystävien tapaamiseen.</p>
+                                jotka järjestävät monipuolisia tapahtumia aina 
+                                teema-illoista urheilukilpailuihin ja 
+                                kulttuuritapahtumiin.</p>
+                                <p>Opiskelijat voivat liittyä erilaisiin järjestöihin 
+                                ja löytää samanhenkisiä ihmisiä, 
+                                jonka kanssa jakaa kiinnostuksen kohteitaan.</p>
+                            </div>
+                            <div className="image">
+                                <img src={opiskelu3} alt="wabu ei lopu"></img>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="image">
+                                <img src={opiskelu4} alt="Pielisjoki keväällä"></img>
+                            </div>
+                            <div className="text">
+                                <p>Joensuun rento ilmapiiri ja avoin asenne tekevät 
+                                kaupungista ihanteellisen paikan opiskelijaelämälle. 
+                                Kaupunki tarjoaa monipuolisia mahdollisuuksia 
+                                rentoutua opintojen lomassa.</p>
+                                <p>Opiskelijat voivat nauttia opiskelijaravintoloista, 
+                                kahviloista ja baareista, jotka luovat rennon 
+                                ympäristön ystävien tapaamiseen.</p>
+                            </div>
+                        </div>
+                        
                     <h3>Opiskelijaystävällinen kaupunki</h3>
-                    <p>Joensuu on opiskelijaystävällinen kaupunki, 
-                        joka tarjoaa edullisia asumisvaihtoehtoja, 
-                        kuten opiskelija-asunnot ja soluasunnot.</p>
-                    <p>Kaupunki panostaa myös turvallisuuteen ja 
-                        hyvinvointiin, luoden opiskelijoille viihtyisän 
-                        ympäristön.</p>
-                    <p></p>
+                    <p>Joensuu on ihanteellinen paikka opiskelulle, 
+                        tarjoten opiskelijoilleen monipuolisen ja 
+                        kannustavan ympäristön. Kaupungin vahva 
+                        opiskelijayhteisö luo aktiivista opiskelijaelämää, 
+                        jossa opiskelijat voivat osallistua erilaisiin 
+                        tapahtumiin, liittyä opiskelijajärjestöihin ja 
+                        nauttia monipuolisista kulttuurielämyksistä.</p>
+                    <p>Yksi Joensuun opiskelijaystävällisyyden piirre on 
+                        edullinen asuminen. Kaupunki tarjoaa opiskelijoille 
+                        kohtuuhintaisia asumisvaihtoehtoja, kuten 
+                        opiskelija-asunnot ja soluasunnot. Opiskelijat 
+                        voivat myös hyödyntää edullisia opiskelijaravintoloita, 
+                        jotka helpottavat arjen taloudellista taakkaa.</p>
+                    <p>Joensuu on kampuksiltaan kompakti kaupunki, 
+                        jossa Itä-Suomen yliopiston Joensuun kampus 
+                        ja Karelia-ammattikorkeakoulu sijaitsevat 
+                        lähellä toisiaan. Modernit kampusalueet 
+                        tarjoavat opiskelijoilleen laadukkaat opetus- 
+                        ja kirjastopalvelut, sekä monipuoliset 
+                        liikuntamahdollisuudet.</p>
+                    <p>Luonto on olennainen osa Joensuun vetovoimaa. 
+                        Kaupunki on ympäröity upealla luonnolla, 
+                        joka tarjoaa mahdollisuuksia ulkoiluun, 
+                        retkeilyyn ja monipuolisiin vapaa-ajan 
+                        aktiviteetteihin. Joensuun turvallinen 
+                        ympäristö luo opiskelijoille mahdollisuuden 
+                        nauttia kaupungin tarjoamista mahdollisuuksista 
+                        huolettomasti.</p>
+                    <img src={opiskelu5} alt="Pielisjoki auringonlaskun aikaan"></img>
                 </div>
+                <Footer />
             </div>
         </>
         
