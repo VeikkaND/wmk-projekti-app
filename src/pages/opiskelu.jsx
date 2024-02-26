@@ -35,6 +35,13 @@ function Opiskelu() {
                                     tutkimuksessa, ja opiskelijat voivat osallistua 
                                     kiinnostaviin projekteihin yhteistyössä alan 
                                     asiantuntijoiden kanssa.</p>
+                                <p>Itä-Suomen yliopisto Joensuun kampuksen koulutusohjelmat 
+                                    ovat suunniteltu tarjoamaan opiskelijoille monipuolisia 
+                                    mahdollisuuksia rakentaa omaa osaamistaan, syventyä 
+                                    kiinnostuksenkohteisiinsa ja valmistautua tulevaisuuden 
+                                    haasteisiin. Yhdistäen korkeatasoisen opetuksen ja 
+                                    laadukkaan tutkimuksen, kampus luo optimaaliset olosuhteet 
+                                    opiskelijoille menestyä omalla polullaan.</p>
                             </div>
                             <div className="image">
                                 <img src={yliopisto2} 
@@ -54,6 +61,12 @@ function Opiskelu() {
                                 <p>Opiskelijoilla on käytössään kirjasto, tietokoneluokat, 
                                     opiskelijaravintolat ja liikuntapalvelut, 
                                     jotka mahdollistavat monipuolisen opiskeluympäristön.</p>
+                                <p>Itä-Suomen yliopisto Joensuun kampus panostaa opiskelijoidensa 
+                                    hyvinvointiin ja menestykseen tarjoamalla monipuolisia 
+                                    opiskelijapalveluita. Nämä palvelut ovat suunniteltu tukemaan 
+                                    opiskelijoiden akateemista kehitystä, tarjoamaan käytännön 
+                                    apua arjen haasteisiin sekä luomaan viihtyisän ja motivoivan 
+                                    opiskeluympäristön.</p>
                             </div>
                         </div>
                         <div className="row">
