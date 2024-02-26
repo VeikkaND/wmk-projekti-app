@@ -2,6 +2,10 @@ body {
     margin-inline: 0px;
 }
 
+p {
+    font-size: 16px;
+}
+
 .footer {
     background-color: rgb(181, 216, 230);
     margin-top: 30px;
@@ -38,7 +42,15 @@ h1 {
 }
 
 h2 {
-    
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-bottom: solid 1px;
 }
 
 .textbox {
@@ -53,8 +65,32 @@ h2 {
 .textbox h3 {
     margin-top: 50px;
     margin-bottom: 0px;
-    width: fit-content;
-    border-bottom: solid 1px;
+    font-size: 25px;
+}
+
+.textbox img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textbox .row {
+    display: flex;
+    margin-top: 60px;
+}
+
+.row .text {
+    flex: 60;
+    margin: auto;
+    padding-inline: 20px;
+}
+
+.row .image {
+    flex: 40;
+    margin: auto;
+}
+
+.row img {
+    margin: auto;
 }
 
 .navbar {

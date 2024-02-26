@@ -1,4 +1,8 @@
 import NavBar from "../components/NavBar"
+import yliopisto2 from "../media/yliopisto2.jpg"
+import yliopisto1 from "../media/yliopisto1.jpg"
+import opiskelu1 from "../media/opiskelu1.jpg"
+import opiskelu2 from "../media/opiskelu2.jpg"
 
 function Opiskelu() {
     return (
@@ -19,28 +23,55 @@ function Opiskelu() {
                             laadukasta tutkimusta. Joensuun kampus sijaitsee 
                             kauniin luonnon ympäröimänä, mikä luo opiskelijoille 
                             ainutlaatuisen ja rauhallisen opiskeluympäristön.</p>
-                        <h4>Koulutusohjelmat ja tutkimus</h4>
-                        <p>Yliopistossa on laaja valikoima koulutusohjelmia, 
-                            jotka kattavat humanistiset, yhteiskuntatieteelliset, 
-                            luonnontieteelliset ja metsätieteelliset alat.</p>
-                        <p>Joensuun kampuksella on vahva painotus monitieteellisessä 
-                            tutkimuksessa, ja opiskelijat voivat osallistua 
-                            kiinnostaviin projekteihin yhteistyössä alan 
-                            asiantuntijoiden kanssa.</p>
-                        <h4>Opiskelijapalvelut</h4>
-                        <p>Kampuksella toimivat modernit opiskelijapalvelut, 
-                            jotka tukevat opiskelijoiden hyvinvointia ja 
-                            opintojen sujumista.</p>
-                        <p>Opiskelijoilla on käytössään kirjasto, tietokoneluokat, 
-                            opiskelijaravintolat ja liikuntapalvelut, 
-                            jotka mahdollistavat monipuolisen opiskeluympäristön.</p>
-                        <h4>Kansainvälisyys</h4>
-                        <p>Yliopisto on aktiivisesti mukana kansainvälisessä 
-                            yhteistyössä, ja opiskelijoilla on mahdollisuus 
-                            osallistua vaihto-ohjelmiin ja opiskella ulkomailla.</p>
-                        <p>Kansainväliset opiskelijat ovat tervetulleita, 
-                            ja kampus tarjoaa tukea integroitumiseen uuteen 
-                            kulttuuriin.</p>
+                        <img src={yliopisto1} 
+                            alt="Kuva Joensuun kampuksen alkukivistä"></img>
+                        <div className="row">
+                            <div className="text">
+                                <h4>Koulutusohjelmat ja tutkimus</h4>
+                                <p>Yliopistossa on laaja valikoima koulutusohjelmia, 
+                                    jotka kattavat humanistiset, yhteiskuntatieteelliset, 
+                                    luonnontieteelliset ja metsätieteelliset alat.</p>
+                                <p>Joensuun kampuksella on vahva painotus monitieteellisessä 
+                                    tutkimuksessa, ja opiskelijat voivat osallistua 
+                                    kiinnostaviin projekteihin yhteistyössä alan 
+                                    asiantuntijoiden kanssa.</p>
+                            </div>
+                            <div className="image">
+                                <img src={yliopisto2} 
+                                    alt="Joensuun kampuksen Aurora-rakennus"></img>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="image">
+                                <img src={opiskelu1} 
+                                    alt="Kävelytie keskustasta yliopistolle"></img>
+                            </div>
+                            <div className="text">
+                                <h4>Opiskelijapalvelut</h4>
+                                <p>Kampuksella toimivat modernit opiskelijapalvelut, 
+                                    jotka tukevat opiskelijoiden hyvinvointia ja 
+                                    opintojen sujumista.</p>
+                                <p>Opiskelijoilla on käytössään kirjasto, tietokoneluokat, 
+                                    opiskelijaravintolat ja liikuntapalvelut, 
+                                    jotka mahdollistavat monipuolisen opiskeluympäristön.</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="text">
+                                <h4>Kansainvälisyys</h4>
+                                <p>Yliopisto on aktiivisesti mukana kansainvälisessä 
+                                    yhteistyössä, ja opiskelijoilla on mahdollisuus 
+                                    osallistua vaihto-ohjelmiin ja opiskella ulkomailla.</p>
+                                <p>Kansainväliset opiskelijat ovat tervetulleita, 
+                                    ja kampus tarjoaa tukea integroitumiseen uuteen 
+                                    kulttuuriin.</p>
+                            </div>
+                            <div className="image">
+                                <img src={opiskelu2} 
+                                    alt="Kävelytie Pielisjoen varrella"></img>
+                            </div>
+                        </div>
+                        
                     <h3>Karelia-ammattikorkeakoulu</h3>
                         <p>Karelia-ammattikorkeakoulussa opiskelu on 
                             käytännönläheistä ja ammatillisesti suuntautunutta. 
