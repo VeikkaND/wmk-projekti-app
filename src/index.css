@@ -37,6 +37,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    
+}
+
 .textbox {
     background-color: white;
     width: 70%;
@@ -44,6 +48,13 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     border: solid 1px;
+}
+
+.textbox h3 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: fit-content;
+    border-bottom: solid 1px;
 }
 
 .navbar {
