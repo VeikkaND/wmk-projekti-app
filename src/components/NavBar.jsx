@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import { BsList } from "react-icons/bs"
 
 function NavBar () {
     const [navActive, setNavActive] = useState(false)
@@ -27,7 +28,7 @@ function NavBar () {
 
     return (
         <div className="navbar">
-            <p id="navigator" onClick={handleClick} style={{borderStyle:"none"}}>nav</p>
+            <p id="icon" onClick={handleClick} style={{borderStyle:"none"}}><BsList /></p>
             {navActive &&
             <>
                 <p onClick={handleNavigation}>johdanto</p>

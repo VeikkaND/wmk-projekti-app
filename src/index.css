@@ -116,6 +116,11 @@ h4 {
     animation-duration: 1s;
 }
 
+.navbar p:hover {
+    font-weight: bold;
+    animation-duration: 0.3s;
+}
+
 @keyframes slidein {
     from {
         width: 0%;
