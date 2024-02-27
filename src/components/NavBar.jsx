@@ -28,7 +28,8 @@ function NavBar () {
 
     return (
         <div className="navbar">
-            <p id="icon" onClick={handleClick} style={{borderStyle:"none"}}><BsList /></p>
+            <button onClick={handleClick}><BsList /></button>
+            
             {navActive &&
             <>
                 <p onClick={handleNavigation}>johdanto</p>

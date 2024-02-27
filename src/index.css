@@ -104,7 +104,22 @@ h4 {
 .navbar {
     max-width: 400px;
     display: flex;
-    
+    height: 55px;
+}
+
+.navbar button {
+    padding-top: 4px;
+    height: 30px;
+    margin-block: auto;
+    margin-left: 10px;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.navbar button:hover {
+    border: solid 1px gray;
+    background-color: gainsboro;
 }
 
 .navbar p {
@@ -114,6 +129,7 @@ h4 {
     cursor: pointer;
     animation-name: slidein;
     animation-duration: 1s;
+    overflow: visible;
 }
 
 .navbar p:hover {
