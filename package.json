@@ -2,7 +2,7 @@
   "name": "wmk-projekti-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://VeikkaND/github.io/wmk-projekti-app",
+  "homepage": "https://veikkand.github.io/wmk-projekti-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
