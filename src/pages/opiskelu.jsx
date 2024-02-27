@@ -22,7 +22,7 @@ function Opiskelu() {
                         Joensuussa sijaitseva Itä-Suomen yliopiston 
                         Joensuun kampus ja Karelia-ammattikorkeakoulu 
                         tarjoavat laadukasta opetusta eri aloilla.</p>
-                    <h3 id="uef">Itä-Suomen yliopisto</h3>
+                    <h3 id="uef" onClick={() => {window.open("https://www.uef.fi/fi", "_blank")}}>Itä-Suomen yliopisto</h3>
                         <p>Itä-Suomen yliopiston Joensuun 
                             kampus tarjoaa monipuolisia opiskelumahdollisuuksia ja 
                             laadukasta tutkimusta. Joensuun kampus sijaitsee 
@@ -90,7 +90,7 @@ function Opiskelu() {
                             </div>
                         </div>
                         
-                    <h3 id="karelia">Karelia-ammattikorkeakoulu</h3>
+                    <h3 id="karelia" onClick={() => {window.open("https://www.karelia.fi/", "_blank")}}>Karelia-ammattikorkeakoulu</h3>
                         <p>Karelia-ammattikorkeakoulussa opiskelu on 
                             käytännönläheistä ja ammatillisesti suuntautunutta. 
                             Joensuun kaupungissa sijaitseva ammattikorkeakoulu 

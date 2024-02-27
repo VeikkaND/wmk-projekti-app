@@ -14,6 +14,8 @@ function App() {
           Joensuu on tunnettu kauniista luonnostaan, 
           vilkkaasta opiskelijaelämästään ja monipuolisista 
           mahdollisuuksistaan niin opiskelijoille kuin asukkaillekin.</p>
+          <p id="tip">Navigointi sivulla onnistuu sivun vasemmasta ylälaidasta aukeavasta 
+          painikkeesta</p>
           <h3>Joensuu kaupunkina</h3>
           <p>Asuminen Joensuussa on miellyttävää ja monipuolista, 
           sillä kaupungissa on tarjolla erilaisia asumisvaihtoehtoja 
