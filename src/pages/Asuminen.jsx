@@ -77,6 +77,7 @@ function Asuminen() {
                         käteistä rahaa. Liikennekortin avulla matkustajat 
                         voivat ladata bussimatkansa etukäteen ja hyödyntää 
                         erilaisia alennuksia ja etuja.</p>
+                    <iframe id="videoembed" src="https://www.youtube.com/embed/UY_5ZFejcCg?si=X5jT-rVavx_FnwoP" title="Youtube video player" allowFullScreen></iframe>
                 </div>
                 <Footer />
             </div>

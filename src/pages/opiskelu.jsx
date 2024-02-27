@@ -9,6 +9,7 @@ import opiskelu4 from "../media/opiskelu4.jpg"
 import opiskelu5 from "../media/opiskelu5.jpg"
 
 function Opiskelu() {
+
     return (
         <>
             <NavBar />
@@ -21,7 +22,7 @@ function Opiskelu() {
                         Joensuussa sijaitseva Itä-Suomen yliopiston 
                         Joensuun kampus ja Karelia-ammattikorkeakoulu 
                         tarjoavat laadukasta opetusta eri aloilla.</p>
-                    <h3>Itä-Suomen yliopisto</h3>
+                    <h3 id="uef">Itä-Suomen yliopisto</h3>
                         <p>Itä-Suomen yliopiston Joensuun 
                             kampus tarjoaa monipuolisia opiskelumahdollisuuksia ja 
                             laadukasta tutkimusta. Joensuun kampus sijaitsee 
@@ -48,14 +49,14 @@ function Opiskelu() {
                                     opiskelijoille menestyä omalla polullaan.</p>
                             </div>
                             <div className="image">
-                                <img src={yliopisto2} 
-                                    alt="Joensuun kampuksen Aurora-rakennus"></img>
+                                <img src={yliopisto2} onClick={() => {window.open("https://www.uef.fi/fi/opiskelu", "_blank")}}
+                                    alt="Joensuun kampuksen Aurora-rakennus" style={{cursor: "pointer"}}></img>
                             </div>
                         </div>
                         <div className="row">
                             <div className="image">
-                                <img src={opiskelu1} 
-                                    alt="Kävelytie keskustasta yliopistolle"></img>
+                                <img src={opiskelu1} onClick={() => {window.open("https://kamu.uef.fi/tietopankki/", "_blank")}}
+                                    alt="Kävelytie keskustasta yliopistolle" style={{cursor: "pointer"}}></img>
                             </div>
                             <div className="text">
                                 <h4>Opiskelijapalvelut</h4>
@@ -84,12 +85,12 @@ function Opiskelu() {
                                     kulttuuriin.</p>
                             </div>
                             <div className="image">
-                                <img src={opiskelu2} 
-                                    alt="Kävelytie Pielisjoen varrella"></img>
+                                <img src={opiskelu2} onClick={() => {window.open("https://kamu.uef.fi/tietopankki/vaihto-opiskelu-ja-kansainvalistyminen/", "_blank")}}
+                                    alt="Kävelytie Pielisjoen varrella" style={{cursor: "pointer"}}></img>
                             </div>
                         </div>
                         
-                    <h3>Karelia-ammattikorkeakoulu</h3>
+                    <h3 id="karelia">Karelia-ammattikorkeakoulu</h3>
                         <p>Karelia-ammattikorkeakoulussa opiskelu on 
                             käytännönläheistä ja ammatillisesti suuntautunutta. 
                             Joensuun kaupungissa sijaitseva ammattikorkeakoulu 
@@ -188,6 +189,7 @@ function Opiskelu() {
                         opiskelija-asunnot ja soluasunnot. Opiskelijat 
                         voivat myös hyödyntää edullisia opiskelijaravintoloita, 
                         jotka helpottavat arjen taloudellista taakkaa.</p>
+                    <img src={opiskelu5} alt="Pielisjoki auringonlaskun aikaan"></img>
                     <p>Joensuu on kampuksiltaan kompakti kaupunki, 
                         jossa Itä-Suomen yliopiston Joensuun kampus 
                         ja Karelia-ammattikorkeakoulu sijaitsevat 
@@ -203,7 +205,7 @@ function Opiskelu() {
                         ympäristö luo opiskelijoille mahdollisuuden 
                         nauttia kaupungin tarjoamista mahdollisuuksista 
                         huolettomasti.</p>
-                    <img src={opiskelu5} alt="Pielisjoki auringonlaskun aikaan"></img>
+                    <iframe id="videoembed" src="https://www.youtube.com/embed/2-fE9MDTF30?si=4423lu1d2Hd1HCVH" title="Tervetuloa opiskelemaan Joensuuhun" allowFullScreen></iframe>
                 </div>
                 <Footer />
             </div>
